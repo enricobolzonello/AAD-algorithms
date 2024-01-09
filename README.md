@@ -23,6 +23,7 @@ The algorithms covered in the Advanced Algorithm Design course during the academ
     * Extended Euclid
     * Modular Exponentiation
 * Randomization
+    * Karger
 
 
 ## Acknowledgements
