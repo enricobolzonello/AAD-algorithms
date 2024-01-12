@@ -13,7 +13,7 @@ def FullContraction(G):
         # select a random edge
         chosen_edge = random.choice(list(G_copy.edges))
         # contract
-        nx.contracted_nodes(G_copy, chosen_edge[0], chosen_edge[1])
+        nx.contracted_nodes(G_copy, chosen_edge[0], chosen_edge[1], copy=False)
     return len(G_copy.edges)
 
 def Karger(G):

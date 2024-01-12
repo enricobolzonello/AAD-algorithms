@@ -24,6 +24,7 @@ The algorithms covered in the Advanced Algorithm Design course during the academ
     * Modular Exponentiation
 * Randomization
     * Karger
+    * Karger-Stein
 
 
 ## Acknowledgements
