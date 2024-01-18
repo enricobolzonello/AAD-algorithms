@@ -8,7 +8,7 @@ Based on the following substructure property (called squaring):
 """
 
 # sequential version
-def MODEXP(M, x_vec: List[int], n) -> int:
+def MODEXP(M, x_vec: list[int], n) -> int:
 	k = len(x_vec) - 1
 	d = 1 # invariant, d=(M^c)mod n when c=0
 	for i in range(k, -1, -1):
